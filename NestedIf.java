@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NextedIf {
+public class NestedIf {
 
     public static void  main (String[] args){
 
