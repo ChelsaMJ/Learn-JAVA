@@ -13,7 +13,7 @@ public class LogicalUsername {
         System.out.print("Enter your username: ");
         String username = sc.nextLine();
 
-        boolean isValid = (username.length() >= 5) && (username.length() <= 15) 
+        boolean isValid = (username.length() >= 5) || (username.length() <= 15) 
         && (!username.contains(" ")) && (!username.contains("_"));
 
         if (isValid) {
