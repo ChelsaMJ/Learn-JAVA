@@ -1,4 +1,4 @@
-public class TwoD_Array{
+public class TwoD_ArraySample{
     public static void main(String[] args) {
         int[][] arr = {
             {1, 2, 3},
