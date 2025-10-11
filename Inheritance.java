@@ -4,6 +4,8 @@ public class Inheritance {
     Dog dog = new Dog();
     Cat cat = new Cat();
     Plant plant = new Plant();
+    Fish fish = new Fish();
+
 
     System.out.println(dog.isAlive);
     dog.eat();
@@ -15,5 +17,8 @@ public class Inheritance {
 
     System.out.println(plant.isAlive);
     plant.photosynthesis();
+
+    fish.eat(); // method overriding
+
 }
 }

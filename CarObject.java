@@ -19,5 +19,10 @@ public class CarObject {
     void drive(){
         System.out.println("You drive the "+ model);
     }
+
+    @Override
+    public String toString(){
+        return this.make + " "+ this.model+" "+ this.year+" "+ this.price ;
+    }
     
 }

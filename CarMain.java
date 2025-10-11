@@ -16,7 +16,11 @@ public class CarMain {
         car1.start(); // method
         System.out.println(car1.isRunning); // becomes true after start()
         car1.stop();
-        System.out.println(car1.isRunning); // becomes false after stop()
+        System.out.println(car1.isRunning); // becomes false after stop()s
+
+        System.out.println(car1); // prints hashcode - unique identifier : CarObject@28a418fc
+        // after overriding the .toString method of Object class, the attr values of car1 are printed
+        
 
     }
 }
